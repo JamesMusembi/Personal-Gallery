@@ -1,3 +1,4 @@
+from email.policy import default
 from django.db import models
 from cloudinary.models import CloudinaryField
 
@@ -35,7 +36,7 @@ class Category(models.Model):
         return self.name
 
 class Image(models.Model):
-    image= models.ImageField(upload_to='articles/')
+    image= models.ImageField(upload_to='articles/', default='True')
     image=CloudinaryField('image')
     image_name=models.CharField(max_length=400)
     description=models.TextField()
