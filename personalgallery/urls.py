@@ -10,3 +10,7 @@ urlpatterns=[
     path('oneimage/<int:pk>', views.viewPhoto, name="viewPhoto"),
     path('searchbylocation/', views.show_by_location, name="showlocation")
 ]
+
+if settings.DEBUG:
+    urlpatterns+=static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+    urlpatterns+=static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
