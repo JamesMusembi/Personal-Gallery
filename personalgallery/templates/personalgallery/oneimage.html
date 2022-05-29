@@ -1,0 +1,19 @@
+{% extends 'personalgallery/base.html' %}
+{% block content %}
+<div class="container-fluid">
+    {% include 'navbar.html' %}
+    <a href="{% url 'indexpage' %}"><button class="btn btn-dark" style="height: 40px;">Go Back</button></a>
+   
+    <div class="row" id="oneimagepage">       
+        <div class="col">
+            <div>
+                <h3>Shot at: {{image.location}} for {{image.category}} Category</h3>
+                <h4>Image Description : {{image.description}}</h4>
+                <br>
+                <img src="{{image.image.url}}" alt="{{image.description}}">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
