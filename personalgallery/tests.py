@@ -110,4 +110,3 @@ class CategoryTestClass(TestCase):
        self.outside.save_category()
        Category.objects.filter(name="outside").update(name="inside")
        self.assertTrue(Category.objects.get(name="inside"))
-
