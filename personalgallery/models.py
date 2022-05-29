@@ -36,7 +36,7 @@ class Category(models.Model):
         return self.name
 
 class Image(models.Model):
-    image= models.ImageField(upload_to='articles/', default='True')
+    image= models.ImageField(upload_to='articles/', default='')
     image=CloudinaryField('image')
     image_name=models.CharField(max_length=400)
     description=models.TextField()
