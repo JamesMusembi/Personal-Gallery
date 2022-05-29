@@ -2,6 +2,15 @@
 h1{
     color: green;
 }
+.image-card{
+    margin-top:10px;
+}
+.image-card a img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
 
 
 
