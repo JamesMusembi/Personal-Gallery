@@ -2,7 +2,7 @@
 {% block content %}
 <div class="container-fluid search-all">
     {% include 'navbar.html'%}
-    <a href="{% url 'indexpage' %}"><button class="btn btn-dark" style="height: 40px;">Go Back</button></a>
+    <a href="{% url 'indexpage' %}"><button class="btn btn-dark" style="height: 35px;">Go Back</button></a>
     <div class="row search-content">
         {% if articles %}
         <h4>Found {{articles|length}} of {{message}} category</h4>

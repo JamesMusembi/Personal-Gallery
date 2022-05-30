@@ -62,7 +62,7 @@ img {
     border-radius: 4px;
     padding: 4px;
     width: 250px;
-    opacity: 0.5;
+    opacity: 1;
   }
   
   img:hover {
