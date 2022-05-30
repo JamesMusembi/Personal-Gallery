@@ -34,7 +34,6 @@ you need to get the necessary requirements
 ```
 $ pip install -r requirements.txt
 ```
-
 Have a virtual environment
 
 ```
