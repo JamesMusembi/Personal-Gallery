@@ -18,7 +18,13 @@ h1{
     justify-content: center;
     margin: 10px;
 }
-
+#indexpageimage a{
+    font-size: 16px;
+    text-align: right;
+    justify-content: right;
+    align-items: flex-end;
+    color: white;
+}
 
 
 *{
