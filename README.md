@@ -3,6 +3,15 @@
 # Description  
 This is a Django application for personal gallery that allows a user to upload images for other to see and be able to to share by coping the image link.
 
+#### Technologies used
+    - Python 3.9
+    - HTML
+    - Bootstrap 5
+    - Heroku
+    - Postgresql
+    - Django, Django Rest Framework
+
+
 ## Getting Started
 
 These instructions are instruction on getting my application.
