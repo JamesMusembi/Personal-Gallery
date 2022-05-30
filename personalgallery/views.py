@@ -5,13 +5,7 @@ from .models import Image, Location,Category
 
 # Create your views here.
 def index(request):
-    # #CREATE THE ATIVE LINKS FOR CATGORY
-    # category=request.GET.get('category')
-    # if category == None:
-    #     images = Image.objects.all()
-    # else:
-    #     images=Image.objects.filter(category__name=category)
-    #CREATE THE ACTIVE LINKS FOR LOCATION  
+    
     location=request.GET.get('location')
     if location == None:
         images=Image.objects.all()
