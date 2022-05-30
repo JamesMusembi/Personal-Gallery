@@ -36,8 +36,8 @@ class Category(models.Model):
         return self.name
 
 class Image(models.Model):
-    image= models.ImageField(upload_to='articles/', default='')
-    image=CloudinaryField('image')
+    image= models.ImageField(upload_to='articles/', null=True, default='articles/travel.jpg' )
+    # image=CloudinaryField('image')
     image_name=models.CharField(max_length=400)
     description=models.TextField()
     location=models.ForeignKey(Location, on_delete=models.CASCADE)
