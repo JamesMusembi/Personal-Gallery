@@ -41,3 +41,12 @@ h1{
     justify-content: center;
     margin: 30px;
 }
+#indexpageimage{
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#indexoneimage{
+    display: none;
+}
