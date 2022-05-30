@@ -29,4 +29,4 @@ $ pip install -r requirements.txt
 Have a virtual environment
 
 ```
-$ python3.6 -m venv virtual
+$ python3.9 -m venv virtual
